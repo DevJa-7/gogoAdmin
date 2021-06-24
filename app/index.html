@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <base href="<%= htmlWebpackPlugin.options.baseUrl %>" />
+    <title>gogo</title>
+    <style>
+        .loading-landing-panel {
+            width: 100%;
+            height: 100%;
+            background: #232735;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 10000;
+        }
+
+        @keyframes loading {
+            from {
+                max-width: 0;
+            }
+        }
+
+        .loading-text {
+            margin: 320px 0;
+            text-align: center;
+            font-size: 50px;
+            font-weight: bold;
+            font-family: "Arial Black";
+        }
+
+        .loading-text:before {
+            content: attr(data-content);
+            position: absolute;
+            overflow: hidden;
+            max-width: 500px;
+            color: white;
+            animation: loading 4s linear infinite;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="app"></div>
+    <div class="loading-landing-panel">
+        <div class="loading-text" data-content="gogo">gogo</div>
+    </div>
+
+    <!-- GoogleMaps -->
+    <script type="text/javascript" src="//maps.google.com/maps/api/js?key=AIzaSyAQQzUkbjT1wR8lKHZKMdmFSSuO07_6XGA&libraries=places"></script>
+
+</body>
+
+</html>

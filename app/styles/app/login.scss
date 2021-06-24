@@ -1,0 +1,104 @@
+/* Login */
+
+#slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.rslides {
+    height: 100%;
+}
+
+.rslides li {
+    height: 100%;
+}
+
+.rslides img {
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Login Page */
+
+.login_box {
+    width: 340px;
+    position: absolute;
+    top: 15%;
+    right: 0;
+    background: #fff;
+    z-index: 5;
+    left: 0;
+    padding: 15px;
+    border-top: 2px $orange solid;
+    margin: 0 auto;
+    .login_logo {
+        text-align: center;
+    }
+    .login_logo img {
+        width: 45%;
+    }
+    .login_form {
+        margin: 50px auto 0;
+        width: 90%;
+    }
+    .between_lines {
+        display: table;
+        white-space: nowrap;
+        position: relative;
+        top: 25px;
+        // width: 90%;
+        margin: 0 auto;
+    }
+    .between_lines>span {
+        padding: 0 20px;
+        color: #909090;
+        font-weight: bold;
+    }
+    .between_lines:before,
+    .between_lines:after {
+        border-top: 1px solid #dde6e9;
+        content: '';
+        display: table-cell;
+        position: relative;
+        top: 0.8em;
+        width: 50%;
+    }
+    #loginForm .form-group.has-feedback {
+        margin: 0;
+    }
+    #loginForm input {
+        padding: 22px 32px !important;
+        display: block;
+        border-radius: 0px;
+        margin: 0;
+        color: #909090;
+    }
+    .icon-l {
+        top: 6px;
+        left: 0px !important;
+    }
+    #loginForm input:focus {
+        border-color: #dde6e9;
+    }
+    #input_email {
+        border-radius: 6px 6px 0px 0px !important;
+    }
+    #input_password {
+        border-radius: 0px 0px 6px 6px !important;
+        border-top: none;
+    }
+    .btn-login {
+        background: $orange;
+        padding: 10px;
+        font-size: 16px;
+        color: $white;
+        text-transform: uppercase;
+        border-radius: 5px;
+        position: relative;
+        top: 8px;
+    }
+}

@@ -1,0 +1,80 @@
+
+$honeydew: honeydew;
+$gray: #e6e6e6;
+
+.Demo__github-icon {
+    font-size: 24px;
+}
+
+.Demo__suggestion-icon {
+    margin-right: 8px;
+}
+
+.fa.fa-map-marker.header {
+    color: #e53935;
+}
+
+.Demo__search-input,
+.Demo__search-input:focus,
+.Demo__search-input:active {
+    display: block;
+    width: 100%;
+    padding: 6px 6px;
+    font-size: 14px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid $gray;
+}
+
+.Demo__autocomplete-container {
+    border-bottom: $honeydew !important;
+    border-left: $honeydew !important;
+    border-right: $honeydew !important;
+    border-top: 1px $gray solid  !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 2px 2px;
+}
+
+.Demo__suggestion-item {
+    padding: 4px;
+    text-align: left;
+}
+
+.Demo__spinner {
+    color: #18bc9c !important;
+    font-size: 30px;
+}
+
+.form_location .form-group {
+    margin: 25px 0 0;
+}
+
+
+.peaks {
+    margin: 8px 0 8px;
+    float: left;
+    width: 100%;
+}
+
+.day_times,
+.nigth_times {
+    display: none;
+}
+
+.nnit {
+    margin-top: 20px;
+}
+
+.range_dates {
+    float: left;
+    margin-top: 12px;
+    float: left;
+}
+
+.in_from {
+    border-radius: 8px 0px 0px 0px;
+}
+
+.in_to {
+    border-radius: 0px 0px 0px 8px;
+}

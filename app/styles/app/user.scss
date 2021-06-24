@@ -1,0 +1,110 @@
+$white: #fff;
+$orange: #ff6600;
+$black: #222222;
+
+.history_item {
+    background: $white;
+    padding: 16px 0px;
+    border-bottom: 1px #ddd solid;
+}
+
+.history_item:last-child{
+  border-bottom: 1px #fff solid;
+}
+
+.directions {
+    padding: 0;
+}
+
+.directions li {
+    list-style: none;
+    margin: 20px 0 0 0;
+}
+
+.point_start {
+    background: $orange;
+    height: 8px;
+    width: 8px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.point_end {
+    background: $black;
+    height: 8px;
+    width: 8px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.point_line {
+    background: #dadada;
+    width: 1px;
+    height: 23px;
+    position: absolute;
+    margin-left: 3px;
+    margin-bottom: 2px;
+}
+
+.history_data {
+    margin: 17px 0 0;
+}
+
+.driver_name_list{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.list_trip {
+    padding: 0;
+    position: relative;
+    top: 13px;
+}
+
+.driver_rating_list i {
+    display: inline-block;
+    color: #FF9800;
+    margin-left: 10px;
+    position: relative;
+    top: 1px
+}
+
+.in_list {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+.list_trip {
+    padding: 0;
+    position: relative;
+    top: 13px;
+}
+
+.arrow_go_trip {
+    position: relative;
+    top: 24px;
+}
+
+.header_modal {
+    background: #ff6600;
+    text-align: center;
+    color: #fff;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.modal-header .close {
+    margin-top: 3px;
+    color: #fff;
+    opacity: 1;
+}
+
+.modal-content {
+    background-color: transparent;
+}
+
+.body_modal{
+    background: #fff;
+    border-radius: 0px 0px 6px 6px;
+}

@@ -1,0 +1,229 @@
+$black: #222;
+$white: #fff;
+$orange: #f71421;
+
+::selection {
+    color: $white;
+    background: $orange;
+}
+
+.box_orders_title {
+    padding: 14px 14px;
+    background: #333;
+    font-weight: bold;
+    font-size: 13px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border: 1px solid #e4eaec;
+}
+
+.label_s {
+    position: relative;
+    top: 6px;
+    right: 5px;
+}
+
+.list-group-item:first-child {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top: none;
+}
+
+.logo_gogo_dash {
+    width: 57px;
+}
+
+.img-coll {
+    position: relative;
+    top: 8px;
+}
+
+.preview_business {
+    background: white;
+    width: 90%;
+    margin: 16px auto 0;
+    border: 1px #ececec solid;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: none;
+    height: 164px;
+    overflow: hidden;
+}
+
+.preview_business img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.btn_upload_business {
+    background: #df4441;
+    color: #fff;
+    border-radius: 0px 0px 5px 5px !important;
+    width: 90%;
+    padding: 8px;
+}
+
+.btn_upload_business:hover {
+    color: #fff;
+}
+
+.body_white {
+    background: $white;
+}
+
+.padding {
+    padding: 0;
+}
+
+.btn-options a {
+    margin: 0 8px 0 0;
+    color: $black;
+}
+
+.btn-options a:hover {
+    text-decoration: none;
+}
+
+.country_icon img {
+    border-radius: 7px;
+    position: relative;
+    left: -1px;
+    top: -2px;
+}
+.btn-black {
+    background: $black;
+}
+
+.btn-black:hover {
+    background: $black;
+}
+
+#datatable1_info {
+    margin: 20px 0 0;
+}
+
+.rating_icon {
+    color: orange;
+    margin-right: 8px;
+}
+
+.profile_status {
+    border-bottom: 1px #dde6e9 solid;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.my_status {
+    float: right;
+}
+
+.col_pic {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn_upload {
+    margin-left: 20px;
+}
+
+.btn-search {
+    background: $orange;
+    border-color: $orange !important;
+    color: $white;
+}
+
+.btn-search:hover {
+    color: $white;
+}
+
+.btn-new {
+    background: #5d9cec;
+    color: #fff;
+    border-color: #5d9cec !important;
+}
+
+.btn-new:hover {
+    color: #fff;
+}
+
+.btn_mobile {
+    display: none;
+}
+
+.btn_mobile button {
+    background: transparent;
+    color: #5d9cec;
+    border-color: #5d9cec !important;
+    border-radius: 0px;
+    padding: 4px 15px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .editsidebar {
+        margin-top: 0px !important;
+    }
+    .btn_mobile {
+        display: block;
+    }
+    .table_new_btn {
+        display: none
+    }
+}
+
+/* Schedule  */
+
+.schedule_list {
+    float: left;
+    width: 100%;
+}
+
+.schedule_item {
+    float: left;
+    width: 100%;
+    margin: 20px 0 0;
+    position: relative;
+}
+
+.name_day {
+    margin: 6px 0 0;
+}
+
+.day_1,
+.day_2,
+.day_3,
+.day_4,
+.day_5,
+.day_6,
+.day_7{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+.btn-schedule {
+    background: transparent;
+    color: #da3b37 !important;
+    border: 1px #da3b37 solid !important;
+    border-radius: 0;
+    width: 100%;
+    padding: 7px;
+}
+
+.btn-schedule:hover{
+    color: #da3b37 !important;
+}
+
+.header_modals{
+    background: #da3b37;
+    text-align: center;
+    color: #fff;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.day_status {
+    position: relative;
+    top: 2px;
+    font-weight: bold;
+    font-size: 13px;
+}

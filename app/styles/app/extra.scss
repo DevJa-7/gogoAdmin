@@ -1,0 +1,147 @@
+.header-user-logo {
+    .dropdown-toggle {
+        padding: 10px !important;
+    }
+}
+
+.no-shadow {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.tr-hover {
+    cursor: pointer;
+    &:hover {
+        background: rgba(74, 206, 255, 0.4) !important;
+    }
+}
+
+.a-hover {
+    cursor: pointer;
+}
+
+.xxxl-text {
+    font-size: 60px;
+    line-height: 36px !important;
+}
+
+.xxl-text {
+    font-size: 44px;
+    line-height: 36px !important;
+}
+
+.xl-text {
+    font-size: 36px;
+    line-height: 36px !important;
+}
+
+.lg-text {
+    font-size: 30px;
+    line-height: 30px !important;
+}
+
+.md-text {
+    font-size: 24px;
+    line-height: 24px !important;
+}
+
+.sm-text {
+    font-size: 12px;
+    line-height: 12px !important;
+}
+
+.m50 {
+    margin: 50px;
+}
+
+.m40 {
+    margin: 40px;
+}
+
+.m30 {
+    margin: 30px;
+}
+
+.m20 {
+    margin: 20px;
+}
+
+.m10 {
+    margin: 10px;
+}
+
+.btn-selected {
+    font-weight: bold;
+    background: lightgray !important;
+}
+
+.btn-control-panel {
+    width: 100%;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.btn-control-panel .btn {
+    margin-left: 10px;
+}
+
+.chart-graph-panel .panel-body {
+    /*margin-top: -44px;*/
+}
+
+.loading-panel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 100;
+}
+
+.loading-div {
+    width: 60px;
+    top: 30px;
+    left: 30px;
+    margin: 300px auto;
+}
+
+#graph-tooltip {
+    position: absolute;
+    display: none;
+    padding: 2px;
+    background-color: #000;
+    color: white;
+    z-index: 10000
+}
+
+.editsidebar form {
+    height: calc(100% - 100px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+img.img-fit {
+    object-fit: cover;
+}
+
+img.img-contain {
+    object-fit: contain;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+// .form-control {
+//     padding: 6px 6px !important;
+// }
+
+.pointer {
+    cursor: pointer;
+}
+
+// .content-wrapper>h3,
+// .content-wrapper>.content-heading {
+//     color: #333;
+// }
